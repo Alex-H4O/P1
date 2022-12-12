@@ -1,0 +1,53 @@
+.body{
+    margin-top: 500px;
+}
+.logoControl{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width:200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.control{
+    display: flex;
+    justify-content: center;
+}
+
+#navbar{
+    width: 80%;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    display: flex; 
+    justify-content: center;
+}
+
+#navbar a{
+    color: #444;
+    text-decoration-line:none ;
+    font-size: 1.2rem;
+}
+
+#navbar a:hover {
+    background-color: #444;
+    color: white;
+}
+#navbar a:active{
+    color: orange;
+}
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    padding:0 100px;
+    list-style-type: none;
+    border-left: solid 1px;
+}
+
+#navbar ul li:first-child{
+    border-left: none;
+}
