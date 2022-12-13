@@ -19,7 +19,7 @@
 }
 
 #navbar {
-  width: 80%;
+  width: 1200px;
   border-top: solid 1px;
   border-bottom: solid 1px;
   display: flex;
@@ -46,13 +46,176 @@
 }
 
 #navbar ul li {
-  padding: 0 100px;
+  padding: 0 70px;
   list-style-type: none;
   border-left: solid 1px;
 }
 
 #navbar ul li:first-child {
   border-left: none;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intro h1 {
+  font-size: 2rem;
+  font-weight: 100;
+}
+.intro p {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.menu {
+  flex-direction: column;
+}
+
+.partOne {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+}
+.partOne .left {
+  margin-right: 50px;
+}
+.partOne .left img {
+  width: 400px;
+  height: 400px;
+}
+.partOne .right {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.partOne .right h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+.partOne .right p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.partOne .right button {
+  font-size: 1rem;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #444;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.partOne .right button:hover {
+  filter: brightness(1.2);
+}
+.partOne .right button:active {
+  background-color: white;
+  color: #444;
+}
+
+.partTwo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+}
+.partTwo .twoLeft {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.partTwo .twoLeft h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+.partTwo .twoLeft p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.partTwo .twoLeft button {
+  font-size: 1rem;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #444;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.partTwo .twoLeft button:hover {
+  filter: brightness(1.2);
+}
+.partTwo .twoLeft button:active {
+  background-color: white;
+  color: #444;
+}
+.partTwo .twoRight img {
+  width: 300px;
+  height: 300px;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.footer .main-footer {
+  display: flex;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  width: 1200px;
+}
+.footer .main-footer .footerLeft {
+  width: 400px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer .main-footer .footerLeft img {
+  width: 200px;
+  height: 200px;
+}
+.footer .main-footer .footerMid {
+  margin-top: 20px;
+  width: 400px;
+  padding-left: 70px;
+}
+.footer .main-footer .footerRight {
+  margin-top: 20px;
+  width: 400px;
+  display: flex;
+}
+.footer .main-footer .footerRight ul li {
+  list-style-type: none;
+  padding: 0 10px 10px 0;
+}
+.footer .main-footer .footerRight ul li a {
+  color: #444;
+  text-decoration-line: none;
+  font-size: 1.2rem;
+}
+.footer .main-footer .footerRight ul li a:hover {
+  background-color: #444;
+  color: white;
+}
+
+.copyRight {
+  display: flex;
+  justify-content: center;
+}
+.copyRight p {
+  margin-top: 5px;
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=style1.css.map */
