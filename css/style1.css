@@ -149,7 +149,7 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .partTwo .twoLeft button:hover {
-  filter: brightness(1.2);
+  filter: brightness(1.5);
 }
 .partTwo .twoLeft button:active {
   background-color: white;
@@ -216,6 +216,71 @@
 .copyRight p {
   margin-top: 5px;
   margin-bottom: 0;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.title h1 {
+  font-size: 2rem;
+}
+
+.coffeeType {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.coffeeType .pic {
+  width: 200px;
+  height: 200px;
+}
+.coffeeType .pic img {
+  width: 180px;
+  height: 180px;
+}
+.coffeeType .introduce {
+  width: 500px;
+  height: 200px;
+  margin-left: 20px;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+.coffeeType .introduce p {
+  font-size: 1rem;
+}
+
+.hisPic {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.aboutControl {
+  display: flex;
+  justify-content: center;
+}
+.aboutControl .aboutUs {
+  margin-top: 30px;
+  width: 1200px;
+  height: 300px;
+  background-image: url("../img/Coffee/coffee4.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutControl .aboutUs h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.aboutControl .aboutUs p {
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=style1.css.map */
