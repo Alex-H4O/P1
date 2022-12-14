@@ -30,6 +30,41 @@
             </nav>
         </div>   
     </header>
+    <section class="bannerControl">
+        <div class = "banner">
+            <ul id = "imglist">
+                <li>
+                    <img src="./img/Coffee/coffee6.jpg" alt="coffee">
+                </li>
+                <li>
+                    <img src="./img/Coffee/coffee7.jpg" alt="coffee">
+                </li>
+                <li>
+                    <img src="./img/Coffee/coffee8.jpg" alt="coffee">
+                </li>
+                <li>
+                    <img src="./img/Coffee/coffee9.jpg" alt="coffee">
+                </li>
+                <li>
+                    <img src="./img/Coffee/coffee6.jpg" alt="coffee">
+                </li>
+            </ul>
+        </div>
+        <script>
+            var left = 0;
+            var timer;
+            run();
+            function run(){
+                if(left <= -4800){
+                    left = 0;
+                }
+                imglist.style.marginLeft = left + 'px';
+                var n = (left % 1200 == 0) ? n = 1200 : n = 10;
+                left -= 10;
+                timer = setTimeout(run,n);
+            }
+        </script>
+    </section>
     <section>
         <div class = "intro">
             <h1>How much do you understand about coffee?</h1>
@@ -66,11 +101,14 @@
     <footer class = "footer">
         <div class = "main-footer">
             <div class = "footerLeft">
-                <img src="./img/logo/logo3.png" alt="logo">
+                <a href="HomePage.html">
+                    <img src="./img/logo/logo3.png" alt="logo">
+                </a>
             </div>
             <div class = "footerMid">
                 <h1>Coffee Library</h1>
                 <p>Welcome to the Coffee Library</p>
+                <p>The Coffee Library is committed to letting you know more about coffee.</p>
             </div>
             <div class = "footerRight">
                 <ul>

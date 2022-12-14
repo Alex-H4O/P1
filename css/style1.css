@@ -174,7 +174,7 @@
   width: 1200px;
 }
 .footer .main-footer .footerLeft {
-  width: 400px;
+  width: 300px;
   margin-left: 100px;
   display: flex;
   justify-content: center;
@@ -188,9 +188,17 @@
 .footer .main-footer .footerMid {
   margin-top: 20px;
   width: 400px;
-  padding-left: 70px;
+  padding-left: 0;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.footer .main-footer .footerMid p {
+  margin-top: 0;
+  text-align: center;
 }
 .footer .main-footer .footerRight {
+  margin-left: 20px;
   margin-top: 20px;
   width: 400px;
   display: flex;
@@ -260,7 +268,9 @@
 
 .aboutControl {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .aboutControl .aboutUs {
   margin-top: 30px;
@@ -281,6 +291,56 @@
 }
 .aboutControl .aboutUs p {
   font-size: 1.5rem;
+}
+.aboutControl .aboutIntro {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+}
+.aboutControl .aboutIntro .aboutLeft {
+  width: 250px;
+  height: 250px;
+}
+.aboutControl .aboutIntro .aboutLeft img {
+  width: 250px;
+  height: 250px;
+}
+.aboutControl .aboutIntro .aboutRight {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.aboutControl .aboutIntro .aboutRight p {
+  margin-left: 50px;
+  font-size: 1.3rem;
+  margin-top: 0;
+}
+
+.bannerControl {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.bannerControl .banner {
+  width: 1200px;
+  height: 300px;
+  border: solid;
+  overflow: hidden;
+}
+.bannerControl .banner ul {
+  display: flex;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.bannerControl .banner ul li {
+  list-style: none;
+}
+.bannerControl .banner ul li img {
+  width: 1200px;
+  height: 300px;
 }
 
 /*# sourceMappingURL=style1.css.map */
