@@ -275,6 +275,20 @@
   color: #444;
 }
 
+.youtube {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.youtube h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+.youtube .video {
+  margin-top: 20px;
+}
+
 .hisPic {
   display: flex;
   justify-content: center;
