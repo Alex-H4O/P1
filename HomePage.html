@@ -49,21 +49,10 @@
                     <img src="./img/Coffee/coffee6.jpg" alt="coffee">
                 </li>
             </ul>
+            <div class = "prev"> < </div>
+            <div class = "next"> > </div>
         </div>
-        <script>
-            var left = 0;
-            var timer;
-            run();
-            function run(){
-                if(left <= -4800){
-                    left = 0;
-                }
-                imglist.style.marginLeft = left + 'px';
-                var n = (left % 1200 == 0) ? n = 1200 : n = 10;
-                left -= 10;
-                timer = setTimeout(run,n);
-            }
-        </script>
+        <script type="text/javascript" src = "js/carousel.js"></script>
     </section>
     <section>
         <div class = "intro">

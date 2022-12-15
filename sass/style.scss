@@ -245,9 +245,11 @@ $pirmarycolor : #444;
     .pic{
         width: 200px;
         height: 200px;
+
         img{
             width: 180px;
             height: 180px;
+            margin-top: 15px;
         }
     }
     .introduce{
@@ -258,6 +260,20 @@ $pirmarycolor : #444;
         overflow: hidden;
         p{
             font-size: 1rem
+        }
+        button{
+            height: 35px;
+            background-color: $pirmarycolor;
+            color: white;
+            cursor: pointer;
+            font-weight: 300;
+        }
+        button:hover{
+            filter: brightness(1.5);
+        }
+        button:active{
+            background-color: white;
+            color: $pirmarycolor;
         }
     }
 }
@@ -330,6 +346,7 @@ $pirmarycolor : #444;
         width: 1200px;
         height: 300px;
         border: solid;
+        position: relative;
         overflow: hidden;
         ul{
             display: flex;
@@ -345,6 +362,32 @@ $pirmarycolor : #444;
                     
                 }
             }
+        }
+        .prev{
+            background-color: #666;
+            color: white;
+            width: 30px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            left: 5px;
+            top: 45%;
+            cursor: pointer;
+        }   
+        .next{
+            background-color: #666;
+            color: white;
+            width: 30px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            right: 5px;
+            top: 45%;
+            cursor: pointer;
         }
         
     }
