@@ -24,6 +24,7 @@
   border-bottom: solid 1px;
   display: flex;
   justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 #navbar a {
@@ -59,6 +60,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .intro h1 {
   font-size: 2rem;
@@ -77,6 +79,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap-reverse;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .partOne .left {
   margin-right: 50px;
@@ -122,6 +125,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap-reverse;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .partTwo .twoLeft {
   width: 300px;
@@ -166,6 +170,7 @@
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .footer .main-footer {
   display: flex;
@@ -220,6 +225,7 @@
 .copyRight {
   display: flex;
   justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .copyRight p {
   margin-top: 5px;
@@ -230,6 +236,7 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .title h1 {
   font-size: 2rem;
@@ -240,6 +247,7 @@
   justify-content: center;
   margin-top: 30px;
   flex-wrap: wrap;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .coffeeType .pic {
   width: 200px;
@@ -300,6 +308,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .aboutControl .aboutUs {
   margin-top: 30px;
@@ -326,6 +335,7 @@
   display: flex;
   justify-content: center;
   width: 1200px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .aboutControl .aboutIntro .aboutLeft {
   width: 250px;
