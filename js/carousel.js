@@ -7,14 +7,14 @@ function run(){
     if(left <= -4800){
         left = 0;
     }
-    imglist.style.marginLeft = left + 'px';
+    imgList.style.marginLeft = left + 'px';
     var n = (left % 1200 == 0) ? n = 2000 : n = 10;
     left -= 10;
     timer = setTimeout(run,n);
 }
 function imgchange(n){
     let it = -(n*1200);
-    imglist.style.marginLeft = it + 'px';
+    imgList.style.marginLeft = it + 'px';
     left = it;
 }
 eprev.onclick = function(){
